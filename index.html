@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Event Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Technical Event Hub</h1>
+      <p>Annual College Technical Fest 2026</p>
+    </header>
+
+    <section class="timer-section">
+      <h2>Event Starts In</h2>
+      <div id="countdown">Loading...</div>
+    </section>
+
+    <section class="schedule">
+      <h2>Event Schedule</h2>
+
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+        </tr>
+
+        <tr>
+          <td>09:00 AM</td>
+          <td>Inauguration Ceremony</td>
+        </tr>
+
+        <tr>
+          <td>10:00 AM</td>
+          <td>Coding Contest</td>
+        </tr>
+
+        <tr>
+          <td>01:00 PM</td>
+          <td>Robotics Workshop</td>
+        </tr>
+
+        <tr>
+          <td>03:00 PM</td>
+          <td>AI Seminar</td>
+        </tr>
+
+        <tr>
+          <td>05:00 PM</td>
+          <td>Prize Distribution</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="form-section">
+      <h2>Register Now</h2>
+
+      <form id="registrationForm">
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <input type="text" id="roll" placeholder="Roll Number" required />
+
+        <input type="text" id="branch" placeholder="Branch" required />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
